@@ -1,6 +1,6 @@
 # Pomodoro Timer
 
-![Pomodoro Timer](/path/to/your/app-icon.png)
+![Pomodoro Timer](public/tired.png)
 
 A simple Pomodoro Timer web application built with Vue.js.
 
