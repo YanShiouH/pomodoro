@@ -1,57 +1,32 @@
-# essentials
+# Pomodoro Timer
 
-## Project setup
+![Pomodoro Timer](/path/to/your/app-icon.png)
 
-```
-# yarn
-yarn
+A simple Pomodoro Timer web application built with Vue.js.
 
-# npm
-npm install
+## Overview
 
-# pnpm
-pnpm install
-```
+This Pomodoro Timer is not just a web app; it's a Progressive Web App (PWA), which means you can install it on your desktop or mobile device for a more app-like experience.
 
-### Compiles and hot-reloads for development
+## Features
 
-```
-# yarn
-yarn dev
+- Pomodoro time tracking with breaks.
+- To-do list for managing tasks.
+- Customizable timer settings.
+- Notification options for task completion.
 
-# npm
-npm run dev
+## Installation
 
-# pnpm
-pnpm dev
-```
+To install the Pomodoro Timer as a PWA, follow these steps:
 
-### Compiles and minifies for production
+1. Visit the [Pomodoro Timer](https://yan-s-h.github.io/pomodoro/#/) website.
 
-```
-# yarn
-yarn build
+2. On your web browser, look for the install prompt. This may vary depending on your browser, but it's usually an icon or option that allows you to install the app on your device.
 
-# npm
-npm run build
+3. Follow the on-screen instructions to add the Pomodoro Timer to your desktop or mobile device.
 
-# pnpm
-pnpm build
-```
+Now, you can access the Pomodoro Timer just like any other app, even when you're offline.
 
-### Lints and fixes files
+Thank you for using the Pomodoro Timer!
 
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+---
