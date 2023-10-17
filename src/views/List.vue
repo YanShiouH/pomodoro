@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h1>事項</h1>
+        <h1>Tasks</h1>
       </v-col>
       <v-col cols="12">
         <v-text-field v-model="newItem" label="Add Task" append-icon="mdi-plus" @click:append="onInputSubmit"
