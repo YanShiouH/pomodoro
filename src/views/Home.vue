@@ -66,7 +66,7 @@ const finishTimer = () => {
 
   if (notify.value) {
     const { show } = useWebNotification({
-      title: '事項完成',
+      title: 'Task Completed',
       body: currentText.value,
       icon: 'https://cdn-icons-png.flaticon.com/128/5511/5511410.png'
     })
@@ -80,7 +80,7 @@ const finishTimer = () => {
   }
 }
 const currentText = computed(() => {
-  return currentItem.value.length > 0 ? currentItem.value : items.value.length > 0 ? '點擊開始' : '沒有事項'
+  return currentItem.value.length > 0 ? currentItem.value : items.value.length > 0 ? 'Click to Start' : 'No Tasks'
 })
 const currentTime = computed(() => {
   const m = Math.floor(timeleft.value / 60).toString().padStart(2, '0')
