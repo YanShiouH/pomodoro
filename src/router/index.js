@@ -6,21 +6,21 @@ const routes = [
     path: '/',
     component: () => import(/* webpackChunkName: "home" */'@/views/Home.vue'),
     meta: {
-      title: '首頁 | 番茄鐘'
+      title: 'Home | Pomodoro'
     }
   },
   {
     path: '/list',
     component: () => import(/* webpackChunkName: "list" */'@/views/List.vue'),
     meta: {
-      title: '事項 | 番茄鐘'
+      title: 'Tasks | Pomodoro'
     }
   },
   {
     path: '/settings',
     component: () => import(/* webpackChunkName: "settings" */'@/views/Settings.vue'),
     meta: {
-      title: '設定 | 番茄鐘'
+      title: 'Settings | Pomodoro'
     }
   }
 ]
