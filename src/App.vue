@@ -2,10 +2,10 @@
   <v-app>
     <v-app-bar>
       <v-container class="d-flex align-center">
-        <v-app-bar-title>番茄鐘</v-app-bar-title>
-        <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
-        <v-btn prepend-icon="mdi-format-list-bulleted" to="/list">事項</v-btn>
-        <v-btn prepend-icon="mdi-cog" to="/settings">設定</v-btn>
+        <v-app-bar-title>Pomodoro Timer</v-app-bar-title>
+        <v-btn prepend-icon="mdi-home" to="/">Home</v-btn>
+        <v-btn prepend-icon="mdi-format-list-bulleted" to="/list">Tasks</v-btn>
+        <v-btn prepend-icon="mdi-cog" to="/settings">Settings</v-btn>
       </v-container>
     </v-app-bar>
     <v-main>
