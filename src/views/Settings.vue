@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h1>通知</h1>
+        <h1>Notifications</h1>
       </v-col>
       <v-col cols="12">
         <v-radio-group inline v-model="notify">
@@ -17,9 +17,9 @@
         <v-table>
           <thead>
             <tr>
-              <th>名稱</th>
-              <th>試聽</th>
-              <th>選擇</th>
+              <th>Name</th>
+              <th>Preview</th>
+              <th>Select</th>
             </tr>
           </thead>
           <tbody>
