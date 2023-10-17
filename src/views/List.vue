@@ -5,13 +5,13 @@
         <h1>事項</h1>
       </v-col>
       <v-col cols="12">
-        <v-text-field v-model="newItem" label="新增事項" append-icon="mdi-plus" @click:append="onInputSubmit"
+        <v-text-field v-model="newItem" label="Add Task" append-icon="mdi-plus" @click:append="onInputSubmit"
           @keydown.enter="onInputSubmit" :rules="[rules.required, rules.length]" ref="newItemInput"></v-text-field>
         <v-table>
           <thead>
             <tr>
-              <th>名稱</th>
-              <th>操作</th>
+              <th>Name</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
@@ -33,19 +33,19 @@
               </td>
             </tr>
             <tr v-if="items.length === 0">
-              <td colspan="2" class="text-center">沒有事項</td>
+              <td colspan="2" class="text-center">No Tasks</td>
             </tr>
           </tbody>
         </v-table>
       </v-col>
       <v-col cols="12">
-        <h1>已完成事項</h1>
+        <h1>Completed Tasks</h1>
       </v-col>
       <v-col cols="12"><v-table>
           <thead>
             <tr>
-              <th>名稱</th>
-              <th>操作</th>
+              <th>Name</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
@@ -54,7 +54,7 @@
               <td><v-btn icon="mdi-delete" color="red" variant="text" @click="delFinishedItem(item.id)"></v-btn></td>
             </tr>
             <tr v-if="finishedItems.length === 0">
-              <td colspan="2" class="text-center">沒有事項</td>
+              <td colspan="2" class="text-center">No Tasks</td>
             </tr>
           </tbody>
         </v-table></v-col>
@@ -88,7 +88,7 @@ const onEditInputSubmit = async (id, i) => {
   confirmEditItem(id)
 }
 const rules = {
-  required: (value) => Boolean(value) || '欄位必填',
-  length: (value) => value.length >= 3 || '必須三個字以上'
+  required: (value) => Boolean(value) || 'Field is required',
+  length: (value) => value.length >= 3 || 'Must be at least three characters'
 }
 </script>
