@@ -2,24 +2,24 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h1>Notifications</h1>
+        <h1 class="text-center">Notifications</h1>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" lg="10" xl="8" xxl="6" class="mx-auto">
         <v-radio-group inline v-model="notify">
           <v-radio label="On" :value="true"></v-radio>
           <v-radio label="Off" :value="false"></v-radio>
         </v-radio-group>
       </v-col>
       <v-col cols="12">
-        <h1>Settings</h1>
+        <h1 class="text-center">Settings</h1>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" lg="10" xl="8" xxl="6" class="mx-auto">
         <v-table>
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Preview</th>
-              <th>Select</th>
+              <th class="w-25">Name</th>
+              <th class="w-50">Preview</th>
+              <th class="w-25">Select</th>
             </tr>
           </thead>
           <tbody>

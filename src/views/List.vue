@@ -2,16 +2,16 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h1>Tasks</h1>
+        <h1 class="text-center">Tasks</h1>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" lg="10" xl="8" xxl="6" class="mx-auto">
         <v-text-field v-model="newItem" label="Add Task" append-icon="mdi-plus" @click:append="onInputSubmit"
           @keydown.enter="onInputSubmit" :rules="[rules.required, rules.length]" ref="newItemInput"></v-text-field>
         <v-table>
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Action</th>
+              <th class="w-50">Name</th>
+              <th class="w-50">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -39,13 +39,14 @@
         </v-table>
       </v-col>
       <v-col cols="12">
-        <h1>Completed Tasks</h1>
+        <h1 class="text-center">Completed Tasks</h1>
       </v-col>
-      <v-col cols="12"><v-table>
+      <v-col cols="12" lg="10" xl="8" xxl="6" class="mx-auto">
+        <v-table>
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Action</th>
+              <th class="w-50">Name</th>
+              <th class="w-50">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -57,8 +58,8 @@
               <td colspan="2" class="text-center">No Tasks</td>
             </tr>
           </tbody>
-        </v-table></v-col>
-
+        </v-table>
+      </v-col>
     </v-row>
   </v-container>
 </template>
